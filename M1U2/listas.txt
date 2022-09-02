@@ -1,3 +1,6 @@
 pan
 galletitas
 milanesas
+
+leche
+coca cola
