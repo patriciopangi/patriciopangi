@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<form action="" method="">
+   <p>
+      <label for="nom">Datos</label>
+      <input type="text" name="nombre" placeholder="Nombre" />
+   </p>
+   <p>
+      <input type="text" name="Apellido" placeholder="Apellido" />
+   </p>
+   <p>
+      <label for="pass">Contraseña</label>
+      <input type="password" name="pass" placeholder="*******" />
+   </p>
+   <label for="sexo">Sexo</label>
+   <ul>
+      <li>
+         <input type="radio" name="sexo" value="Hombre">
+         <label>Hombre</label>
+      </li>
+      <li>
+         <input type="radio" name="sexo" value="Mujer">
+         <label>Mujer</label>
+      </li>
+      <li>
+         <input type="radio" name="sexo" value="Otro">
+         <label>Otro</label>
+      </li>
+   </ul>
+   <label>Hobbies</label>
+   <ul>
+      <li>
+         <input type="checkbox" name="hobbies[]" value="Bailar" id="Bailar" />
+         <label for="Bailar">Bailar</label>
+      </li>
+      <li>
+         <input type="checkbox" name="hobbies[]" value="Cantar" id="Cantar" />
+         <label for="Cantar">Cantar</label>
+      </li>
+      <li>
+         <input type="checkbox" name="hobbies[]" value="Nadar" id="Nadar" />
+         <label for="Nadar">Nadar</label>
+      </li>
+      <li>
+         <input type="checkbox" name="hobbies[]" value="correr" id="correr" />
+         <label for="correr">Correr</label>
+      </li>
+   </ul>
+   <p>
+      <label for="titulo">Titulo</label>
+      <select name="titulo">
+         <option value="primario">Primario</option>
+         <option value="primario">Secundario</option>
+         <option value="primario">Terciario</option>
+         <option value="primario">Universitario</option>
+      </select>
+   </p>
+   <p>
+      <label for="comentarios">Comentarios</label>
+      <textarea name="comentarios"></textarea>
+   </p>
+   <p>
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Borrar" />
+   </p>
+</form>
+</html>
