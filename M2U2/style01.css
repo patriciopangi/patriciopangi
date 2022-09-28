@@ -1,0 +1,41 @@
+body{
+    background-color: whitesmoke;
+}
+.contenedor{
+    width: 504px;
+    height: 504px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.ítem1{
+    background-color: red;
+    color: wheat;
+    height: 168px;
+    width: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ítem2{
+    background-color: blue;
+    color: wheat;
+    height: 168px;
+    width: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ítem3{
+    background-color: green;
+    color: wheat;
+    height: 168px;
+    width: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
