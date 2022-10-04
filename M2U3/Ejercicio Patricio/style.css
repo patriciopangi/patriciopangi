@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(41, 35, 35);
+    display: flex;
+    justify-content: center;
+}
+div{
+    width: 800px;
+    background-color: rgb(94, 146, 129);
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+nav{
+    float: left;
+    background-color: rgb(196, 74, 30);
+    width: 160px;
+}
+ul{
+    list-style-type: none;
+    padding: auto;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+section{
+    background-color: rgb(207, 206, 126);
+    float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+aside{
+    float: right;
+    width: 190px;
+    background-color: rgb(190, 190, 190);
+}

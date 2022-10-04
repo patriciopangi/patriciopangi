@@ -25,7 +25,6 @@ body {
     width: 300px;
     height: 450px;
     padding: 10px;
-    margin-left: 15px;
     border-left: 5px solid azure;
     box-shadow: 12px 18px 5px -6px rgba(0, 0, 0, 0.23);
     box-sizing: border-box;
@@ -71,13 +70,11 @@ body {
     width: 300px;
     height: 450px;
     padding: 10px;
-    margin-left: 15px;
     border-right: 3px solid azure;
     border-radius: 0px 0px 66px 0px;
     border-left: 5px dashed rgb(178, 219, 107);
     box-sizing: border-box;
     background-color: rgb(25, 134, 25);
-    margin-top: 25px;
 }
 
 .div2 h2 {
@@ -101,7 +98,6 @@ body {
 #div3 {
     width: 300px;
     height: 450px;
-    margin-left: 15px;
     border-radius: 12px 12px 200px 200px;
     box-sizing: border-box;
     background: rgb(5, 97, 8);
@@ -109,7 +105,7 @@ body {
 }
 
 #div3 h4{
-    padding-top: 15px;
+    padding-top: 10px;
     font-size: 30px;
     text-align: center;
     font-family: 'Rubik Dirt',cursive;
@@ -154,4 +150,12 @@ i{
 
 #columnas{
     column-count: 3;
+}
+.contenedor{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    background-color: rgb(166, 194, 119);
+    display: flex;
+    justify-content: space-evenly;
 }
