@@ -1,0 +1,9 @@
+body{
+    background-color: blueviolet;
+}
+
+.boton{
+    background-color: lightseagreen;
+    border: 3px solid saddlebrown;
+    color: azure;
+}
