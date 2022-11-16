@@ -1,0 +1,335 @@
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: rgb(224, 228, 0);
+    padding: 16px 0;
+}
+
+header h1{
+    color:rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    margin-left: 16px;
+    bottom: 20px;
+    margin-bottom: 0%;
+}
+
+header h1:hover{
+    color: rgb(88, 76, 76);
+    transition: 3s;
+    cursor: default;
+}
+
+nav{
+    background-color: rgb(88, 76, 76);
+}
+
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a:hover{
+    background-color: rgb(68, 59, 59);
+    color: rgb(224, 228, 0);
+    transition: 1s;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a.activo{
+    background-color: rgb(68, 59, 59);
+    color: rgb(224, 228, 0);
+}
+
+.holder{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: rgb(88, 76, 76);
+    color: rgb(211, 211, 211);
+    clear: both;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.firma p{
+    margin-bottom: 25px;
+}
+
+.datosfooter{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+footer ul{
+    padding: 0px;
+}
+
+h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-shadow: -7px 3px 4px rgba(0,0,0,0.46);
+}
+
+/* Inicio Home*/
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;   
+}
+
+.testimonios{
+    width: 25%;
+}
+
+.columnas{
+    display:flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p{
+    font-size: 16px;
+}
+
+.testimonio{
+    background-color: rgb(88, 76, 76);
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.testimonio .cita{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    color: aliceblue;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 14px;
+}
+
+.testimonio1{
+    background-color: rgb(88, 76, 76);
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.testimonio1 .cita{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    color: aliceblue;
+    display: block;
+}
+
+.testimonio1 .autor{
+    font-size: 14px;
+}
+
+.testimonio2{
+    background-color: rgb(88, 76, 76);
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.testimonio2 .cita{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    color: aliceblue;
+    display: block;
+}
+
+.testimonio2 .autor{
+    font-size: 14px;
+}
+
+.homeimg{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+#encabezadolistahome{
+    list-style: none;
+}
+
+.negrita{
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(199, 202, 0);
+}
+
+/*fin home*/
+
+/*Inicio Cartelera*/
+.obra{
+    border: 1px solid rgba(0,0,0,0.46);
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.obra .info h4{
+    color: rgb(68, 59, 59);
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(199, 202, 0);
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.obra .info p{
+    font-size: 13px;
+    /*line-height: 19px;*/
+}
+
+.obra span.valor{
+    font-weight: 300;
+    margin-left: 15px;
+    color: rgb(0, 92, 20);
+}
+
+.obra span.horario{
+    font-weight: 300;
+}
+
+
+.obra img{
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+    max-height: 225px;
+}
+
+.obra:nth-child(even) {
+    flex-direction: row-reverse;
+}
+/*Fin Cartelera*/
+/*Inicio Nosotros*/
+.Quienes-somos p{
+    font-size: 13px;
+}
+
+.historia li{
+    font-size: 13px;
+}
+
+.persona{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.persona img{
+    border-radius: 100%;
+    max-width: 60%;
+    max-height: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.persona h5, .persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+}
+
+.persona p{
+    color: #666;
+    font-size: 13px;
+}
+
+.caracteristica{
+    background-color: rgb(199, 202, 0);
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.caracteristicas{
+    font-size: 13px;
+    border-radius: 15px;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+/*Fin Nosotros*/
+
+/*Inicio Galeria*/
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.galeria img{
+    width: 18%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+/*Fin Galeria*/
