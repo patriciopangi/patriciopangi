@@ -1,19 +1,19 @@
 /* font-family: 'Quicksand', sans-serif;
 font-family: 'Work Sans', sans-serif;*/
 
-body{
+body {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     line-height: 20px;
 }
 
-header{
+header {
     background-color: rgb(224, 228, 0);
     padding: 16px 0;
 }
 
-header h1{
-    color:rgb(255, 255, 255);
+header h1 {
+    color: rgb(255, 255, 255);
     font-size: 70px;
     font-weight: 400;
     text-transform: uppercase;
@@ -25,52 +25,52 @@ header h1{
     margin-bottom: 0%;
 }
 
-header h1:hover{
+header h1:hover {
     color: rgb(88, 76, 76);
     transition: 3s;
     cursor: default;
 }
 
-nav{
+nav {
     background-color: rgb(88, 76, 76);
 }
 
-nav ul{
+nav ul {
     list-style: none;
     margin: 0%;
     padding: 0%;
     display: flex;
 }
 
-nav ul li{
+nav ul li {
     flex-grow: 1;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     background-color: rgb(68, 59, 59);
     color: rgb(224, 228, 0);
     transition: 1s;
 }
 
-nav ul li a{
-    color:white;
+nav ul li a {
+    color: white;
     text-decoration: none;
     padding: 3px 6px;
     display: block;
     text-align: center;
 }
 
-nav ul li a.activo{
+nav ul li a.activo {
     background-color: rgb(68, 59, 59);
     color: rgb(224, 228, 0);
 }
 
-.holder{
+.holder {
     max-width: 1260px;
     margin: 0 auto;
 }
 
-footer{
+footer {
     background-color: rgb(88, 76, 76);
     color: rgb(211, 211, 211);
     clear: both;
@@ -81,11 +81,11 @@ footer{
     font-size: 20px;
 }
 
-.firma p{
+.firma p {
     margin-bottom: 25px;
 }
 
-.datosfooter{
+.datosfooter {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -94,46 +94,46 @@ footer{
     font-size: 14px;
 }
 
-footer ul{
+footer ul {
     padding: 0px;
 }
 
-h2{
+h2 {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     font-weight: 200;
-    text-shadow: -7px 3px 4px rgba(0,0,0,0.46);
+    text-shadow: -7px 3px 4px rgba(0, 0, 0, 0.46);
 }
 
 /* Inicio Home*/
 
-.bienvenidos{
+.bienvenidos {
     width: 75%;
     padding-right: 10px;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
-.testimonios{
+.testimonios {
     width: 25%;
 }
 
-.columnas{
-    display:flex;
+.columnas {
+    display: flex;
     justify-content: space-between;
 }
 
-.bienvenidos p{
+.bienvenidos p {
     font-size: 16px;
 }
 
-.testimonio{
+.testimonio {
     background-color: rgb(88, 76, 76);
     padding: 16px;
     text-align: center;
     margin-bottom: 25px;
 }
 
-.testimonio .cita{
+.testimonio .cita {
     font-weight: 300;
     font-style: italic;
     font-size: 18px;
@@ -141,18 +141,18 @@ h2{
     display: block;
 }
 
-.testimonio .autor{
+.testimonio .autor {
     font-size: 14px;
 }
 
-.testimonio1{
+.testimonio1 {
     background-color: rgb(88, 76, 76);
     padding: 16px;
     text-align: center;
     margin-bottom: 25px;
 }
 
-.testimonio1 .cita{
+.testimonio1 .cita {
     font-weight: 300;
     font-style: italic;
     font-size: 18px;
@@ -160,18 +160,18 @@ h2{
     display: block;
 }
 
-.testimonio1 .autor{
+.testimonio1 .autor {
     font-size: 14px;
 }
 
-.testimonio2{
+.testimonio2 {
     background-color: rgb(88, 76, 76);
     padding: 16px;
     text-align: center;
     margin-bottom: 25px;
 }
 
-.testimonio2 .cita{
+.testimonio2 .cita {
     font-weight: 300;
     font-style: italic;
     font-size: 18px;
@@ -179,21 +179,21 @@ h2{
     display: block;
 }
 
-.testimonio2 .autor{
+.testimonio2 .autor {
     font-size: 14px;
 }
 
-.homeimg{
+.homeimg {
     display: flex;
     margin-top: 25px;
     justify-content: center;
 }
 
-#encabezadolistahome{
+#encabezadolistahome {
     list-style: none;
 }
 
-.negrita{
+.negrita {
     font-size: 16px;
     font-weight: 800;
     color: rgb(199, 202, 0);
@@ -202,8 +202,8 @@ h2{
 /*fin home*/
 
 /*Inicio Cartelera*/
-.obra{
-    border: 1px solid rgba(0,0,0,0.46);
+.obra {
+    border: 1px solid rgba(0, 0, 0, 0.46);
     border-radius: 10px;
     padding: 16px;
     margin: 16px 0;
@@ -212,7 +212,7 @@ h2{
     align-items: center;
 }
 
-.obra .info h4{
+.obra .info h4 {
     color: rgb(68, 59, 59);
     font-weight: 700;
     font-style: italic;
@@ -222,23 +222,23 @@ h2{
     font-size: 18px;
 }
 
-.obra .info p{
+.obra .info p {
     font-size: 13px;
     /*line-height: 19px;*/
 }
 
-.obra span.valor{
+.obra span.valor {
     font-weight: 300;
     margin-left: 15px;
     color: rgb(0, 92, 20);
 }
 
-.obra span.horario{
+.obra span.horario {
     font-weight: 300;
 }
 
 
-.obra img{
+.obra img {
     border-radius: 13px;
     display: block;
     max-width: 225px;
@@ -248,17 +248,18 @@ h2{
 .obra:nth-child(even) {
     flex-direction: row-reverse;
 }
+
 /*Fin Cartelera*/
 /*Inicio Nosotros*/
-.Quienes-somos p{
+.Quienes-somos p {
     font-size: 13px;
 }
 
-.historia li{
+.historia li {
     font-size: 13px;
 }
 
-.persona{
+.persona {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 18%;
@@ -268,30 +269,31 @@ h2{
     background-color: #fff;
 }
 
-.personas{
+.personas {
     display: flex;
     justify-content: space-around;
 }
 
-.persona img{
+.persona img {
     border-radius: 100%;
     max-width: 60%;
     max-height: 100%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-.persona h5, .persona h6 {
+.persona h5,
+.persona h6 {
     margin: 0;
     font-weight: normal;
     color: #2e64a1;
 }
 
-.persona p{
+.persona p {
     color: #666;
     font-size: 13px;
 }
 
-.caracteristica{
+.caracteristica {
     background-color: rgb(199, 202, 0);
     width: 100%;
     border-radius: 15px;
@@ -302,7 +304,7 @@ h2{
     box-sizing: border-box;
 }
 
-.caracteristicas{
+.caracteristicas {
     font-size: 13px;
     border-radius: 15px;
     background-color: rgb(102, 102, 102);
@@ -317,13 +319,13 @@ h2{
 
 /*Inicio Galeria*/
 
-.galeria{
+.galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-.galeria img{
+.galeria img {
     width: 18%;
     border: 1px solid #ddd;
     padding: 0.3em;
@@ -333,3 +335,103 @@ h2{
 }
 
 /*Fin Galeria*/
+
+/*Inicio Novedades*/
+.novedades {
+    background-color: #666;
+    border-radius: 12px;
+    padding: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/*Fin Novedades*/
+
+/*Inicio Buffet*/
+.buffet {
+    text-align: center;
+}
+
+/*Fin Buffet*/
+
+/*Inicio Contacto*/
+
+.contacto {
+    display: flex;
+    gap: 25px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+    font-size: 14px;
+}
+
+.formulario p label {
+    min-width: 70px;
+    background-color: rgb(189, 192, 0);
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+}
+
+.formulario p input,
+.formulario p textarea {
+    background-color: rgb(88, 76, 76);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 228, 0);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 10px;
+    box-sizing: border-box;
+}
+
+.formulario p label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 27px;
+}
+
+.formulario textarea{
+    resize:vertical;
+    max-height: 150px;
+}
+
+.formulario p:nth-child(4){
+    align-items: flex-start;
+}
+
+.formulario input[type="submit"] {
+    background-color: rgb(189, 192, 0);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: rgb(224, 228, 0);
+    color: #666;
+    border: 2px solid #ccc;
+    transition: 2s;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}
+
+/*Fin Contacto*/
